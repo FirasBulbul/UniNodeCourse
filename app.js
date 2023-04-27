@@ -4,6 +4,6 @@ const port = 4000; //port to run the server but shouldn't being between 0 and 10
 const server = http.createServer();
 
 server.listen(port, () => { // running the server to get the responses
-    console.log('Server is litening right now...');
+    console.log('Server is litening right now....');
 })
 
