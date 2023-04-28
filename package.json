@@ -11,5 +11,8 @@
     "url": "UniNodeCourse"
   },
   "author": "Firas Bulbul",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "http2": "^3.3.7"
+  }
 }
