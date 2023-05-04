@@ -40,6 +40,10 @@ module.exports = function getForm(addresses, id) {
         <div>
         <label for="country">Country</label>
         <input type="text" id="country" name="country" value="${address.country}" />
+        </div> 
+        <div>
+        <label for="upload">file</label>
+        <input type="file" id="upload" name="upload" />
         </div>
         <div>
         <button type="submit">save</button>
